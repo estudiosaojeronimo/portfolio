@@ -7,6 +7,8 @@ html {
 
 body {
   margin: 0 !important;
+  width: 100%;
+  
 }  
 
 a, a:link, a:active, a:visited {
@@ -26,22 +28,32 @@ a:hover {
 /* desktop 1366x798 */
 
 #topo {
+  width: 100%;
 }
 
 #estudio {
+  width: 100%;
   background: #EDE7DD;
 }
 
 #artesa {
+  width: 100%;
+  
 }
 
 #loja {
+  width: 100%;
+  
 }
 
 #textos {
+  width: 100%;
+  
 }
 
 #newsletter {
+  width: 100%;
+  
 }
 
 /* CLASSES */
