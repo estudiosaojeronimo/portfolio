@@ -63,9 +63,11 @@ a:hover {
 }
 
 ul {
+  display: inline-block;
 }
 
 li {
+  list-style-type: none;
 }
 
 /* CLASSES */
