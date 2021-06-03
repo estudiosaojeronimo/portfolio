@@ -1,8 +1,13 @@
+/* BÁSICO */
 html {
   font-family: 'Garamond', serif;
   font-size: 100%;
   text-decoration: none !important;
 }
+
+body {
+  margin: 0 !important;
+}  
 
 a, a:link, a:active, a:visited {
   text-decoration: none !important;
@@ -15,3 +20,28 @@ a:hover {
   color: ;
   background: ;
 }
+
+/* IDS */
+
+/* desktop 1366x798 */
+
+#topo {
+}
+
+#estudio {
+  background: #EDE7DD;
+}
+
+#artesa {
+}
+
+#loja {
+}
+
+#textos {
+}
+
+#newsletter {
+}
+
+/* CLASSES */
