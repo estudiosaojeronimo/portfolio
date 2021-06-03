@@ -75,17 +75,20 @@ li {
 
 /*COLUNAS*/
 .coluna1 {
+  display: inline-block;
   width: 33%;
   margin-left: 0;
 }
 
-.coluna2 {
-  background-color: #EDE7DD;
+.coluna2 {  
+  display: inline-block;
   width: 33%;
   margin-left: 33%;
+  background-color: #EDE7DD;
 }
 
 .coluna3{
+  display: inline-block;
   width: 33%;
   margin-left: 66%;
 }
