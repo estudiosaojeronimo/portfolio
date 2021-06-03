@@ -61,6 +61,7 @@ a:hover {
 .menu {
   display: inline;
   margin-top: 100px;
+  font-size: 30px;
 }
 
 ul {
