@@ -59,15 +59,15 @@ a:hover {
 /* MENU UL LI */
 
 .menu {
-  display: inline-block;
+  display: inline;
 }
 
 ul {
-  display: inline-block;
+  display: inline;
 }
 
 li {
-  display: inline-block;
+  display: inline;
   list-style-type: none;
 }
 
@@ -75,20 +75,20 @@ li {
 
 /*COLUNAS*/
 .coluna1 {
-  display: inline-block;
+  display: inline;
   width: 33%;
   margin-left: 0;
 }
 
 .coluna2 {  
-  display: inline-block;
+  display: inline;
   width: 33%;
   margin-left: 33%;
   background-color: #EDE7DD;
 }
 
 .coluna3{
-  display: inline-block;
+  display: inline;
   width: 33%;
   margin-left: 66%;
 }
