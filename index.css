@@ -71,6 +71,14 @@ li {
   list-style-type: none;
 }
 
+li a {
+  background-color: #ddd;
+}
+
+li:hover {
+  background-color: #fefefe;
+}
+
 /* CLASSES */
 
 /*COLUNAS*/
@@ -87,7 +95,7 @@ li {
   background-color: #EDE7DD;
 }
 
-.coluna3{
+.coluna3 {
   display: inline;
   width: 33%;
   margin-left: ;
