@@ -85,6 +85,12 @@ li:hover {
 
 /* CLASSES */
 
+.telefone {
+  font-size: 150%;
+  margin-right: 5%;
+  align: right;
+}
+
 /*COLUNAS*/
 .coluna1 {
   display: inline;
