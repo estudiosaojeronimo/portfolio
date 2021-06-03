@@ -72,3 +72,22 @@ li {
 }
 
 /* CLASSES */
+
+/*COLUNAS*/
+.coluna1 {
+  width: 33%;
+  margin-left: 0;
+}
+
+.coluna2 {
+  background-color: #EDE7DD;
+  width: 33%;
+  margin-left: 33%;
+}
+
+.coluna3{
+  width: 33%;
+  margin-left: 66%;
+}
+
+
