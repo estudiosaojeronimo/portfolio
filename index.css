@@ -35,9 +35,12 @@ a:hover {
   
   .subtitulo {
     font-family: 'Garamond', serif;
+    font-size: 150%;
   }
   
   .telefone {
+    font-family: 'Garamond', serif;
+    font-size: 100%;
   }
     
   }
