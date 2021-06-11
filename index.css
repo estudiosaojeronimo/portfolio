@@ -23,38 +23,24 @@ a:hover {
   background-color: #fefefe;
 }
 
-/* IDS */
-
 /* desktop 1366x798 */
 
-#topo {
-  width: 100%;
-}
+@media screen and (min-width: 1366px) {
 
-#estudio {
-  width: 100%;
-  background-color: #EDE7DD;
-}
-
-#artesa {
-  width: 100%;
+  .titulo {
+    font-family: 'Rozha One', serif;
+    font-size: 300%;
+    letter-spacing: 2;
+  }
   
-}
-
-#loja {
-  width: 100%;
+  .subtitulo {
+    font-family: 'Garamond', serif;
+  }
   
-}
-
-#textos {
-  width: 100%;
-  
-}
-
-#newsletter {
-  width: 100%;
-  
-}
+  .telefone {
+  }
+    
+  }
 
 /* MENU UL LI */
 
