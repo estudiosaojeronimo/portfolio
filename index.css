@@ -86,8 +86,8 @@ a:hover {
     font-family: 'Garamond', serif;
     font-size: 90%;
     position: absolute;
-    bottom: 5%;
-    right: 5%;
+    bottom: 5;
+    right: 5;
     float: right;
 
   }
