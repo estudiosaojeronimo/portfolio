@@ -43,6 +43,7 @@ a:hover {
   .subtitulo {
     font-family: 'Garamond', serif;
     font-size: 150%;
+    font-style: italic;
     margin-left: auto;
     margin-right: auto;
     text-align: center !important;
