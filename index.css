@@ -34,7 +34,7 @@ a:hover {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
+    margin-top: 2%;
   }
 
   main {
@@ -97,8 +97,8 @@ a:hover {
 
 .menu {
   display: inline;
-  margin-top: 5%;
-  font-size: 250%;
+  margin-top: ;
+  font-size: 100%;
 }
 
 ul {
