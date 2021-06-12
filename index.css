@@ -36,6 +36,8 @@ a:hover {
     text-align: center !important;
     width: 100%;
     height: 50%;
+    display: flex;
+    justify-content: center;
   }
   
   .subtitulo {
