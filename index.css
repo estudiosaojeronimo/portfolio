@@ -114,7 +114,8 @@ li {
 }
 
 li a {
-
+font-size: 250%;
+  background-color: none;
 }
 
 li:hover {
