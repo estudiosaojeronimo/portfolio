@@ -51,6 +51,7 @@ a:hover {
     clear: both;
     position: absolute;
     bottom: 0;
+    align: center;
   }
   
   /*CLASSES*/
@@ -90,8 +91,6 @@ a:hover {
     height: 10%;
   }
   
-   
-  }
 
 /* MENU UL LI */
 
@@ -122,5 +121,6 @@ li:hover {
 
 }
 
-
+   
+  } /* fim do max-width 1366 nao remover
 
