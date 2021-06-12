@@ -64,38 +64,21 @@ ul {
 
 li {
   display: inline;
+  margin: 5% auto auto 5%;
+  weight: 500;
+  font-size: 90%;
   list-style-type: none;
   border: 0px solid #000;
   padding: 0 10px;
 }
 
 li a {
-  background-color: #ddd;
+  
 }
 
 li:hover {
   background-color: #fefefe;
 }
 
-
-/*COLUNAS*/
-.coluna1 {
-  display: inline;
-  width: 33%;
-  margin-left: 0;
-}
-
-.coluna2 {  
-  display: inline;
-  width: 33%;
-  margin-right: ;
-  background-color: #EDE7DD;
-}
-
-.coluna3 {
-  display: inline;
-  width: 33%;
-  margin-left: ;
-}
 
 
