@@ -26,6 +26,34 @@ a:hover {
 /* desktop 1366x798 */
 
 @media screen and (min-width: 1366px) {
+  
+  /*IDS*/
+  
+  #topo {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #corpo {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    #footer {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  /*CLASSES*/
 
   .titulo {
     font-family: 'Rozha One', serif;
@@ -62,10 +90,7 @@ a:hover {
     height: 10%;
   }
   
-  .footer {
-    clear: both;
-  }
-    
+   
   }
 
 /* MENU UL LI */
