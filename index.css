@@ -14,30 +14,29 @@ body {
 a, a:link, a:active, a:visited {
   text-decoration: none !important;
   color: #333;
-  background: #efefef;
+  background:;
 }
 
 a:hover {
   text-decoration: none !important;
   color: #000;
-  background-color: #fefefe;
+  background-color:;
 }
 
 /* desktop 1366x798 */
 
 @media screen and (min-width: 1366px) {
 
-  /*sessoes*/
+  /*IDS*/
 
-  header {
+  #topo {
     width: auto;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2%;
   }
 
-  main {
+  #corpo {
     max-height: 768px;
     max-width: 1366px;
     min-height: 768px;
@@ -49,7 +48,7 @@ a:hover {
     align-items: center;
   }
 
-  footer {
+  #footer {
     width: auto;
     height: auto;
     margin-left: auto;
@@ -65,7 +64,7 @@ a:hover {
   h1 {
     font-family: 'Rozha One', serif;
     font-size: 400%;
-    letter-spacing: 3;
+    letter-spacing: 2;
     margin-left: auto;
     margin-right: auto;
     text-align: center !important;
@@ -74,7 +73,7 @@ a:hover {
 
   h2 {
     font-family: 'Garamond', serif;
-    font-size: 180%;
+    font-size: 150%;
     font-style: italic;
     margin-left: auto;
     margin-right: auto;
@@ -86,8 +85,8 @@ a:hover {
     font-family: 'Garamond', serif;
     font-size: 90%;
     position: absolute;
-    bottom: 5;
-    right: 5;
+    bottom: 0;
+    right: 0;
     float: right;
 
   }
@@ -97,8 +96,8 @@ a:hover {
 
 .menu {
   display: inline;
-  margin-top: ;
-  font-size: 100%;
+  margin-top: 5%;
+  font-size: 250%;
 }
 
 ul {
