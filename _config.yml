@@ -89,3 +89,5 @@ defaults:
     values:
       layout: "default"
       theme: jekyll-theme-persephone
+
+theme: jekyll-theme-minimal
