@@ -1,126 +1,57 @@
-/* BÁSICO */
-html {
-  font-family: 'Garamond', serif;
-  font-size: 100%;
-  text-decoration: none !important;
-}
-
-body {
-  margin: 0 !important;
-  width: 100%;
-
-}  
-
-a, a:link, a:active, a:visited {
-  text-decoration: none !important;
-  color: #333;
-  background:;
-}
-
-a:hover {
-  text-decoration: none !important;
-  color: #000;
-  background-color:;
-}
-
-/* desktop 1366x798 */
-
-@media screen and (min-width: 1366px) {
-
-  /*IDS*/
-
-  #topo {
-    width: auto;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+* {
+    box-sizing: border-box;
   }
 
-  #corpo {
-    max-height: 768px;
-    max-width: 1366px;
-    min-height: 768px;
-    min-width: 1366px;    
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  @font-face {
+    font-family: 'Special Elite';
+    src: url(special_elite.ttf);
   }
 
-  #footer {
-    width: auto;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+  }
+  
+
+.row::after {
+    content: "";
     clear: both;
-    position: absolute;
-    bottom: 0;
-    align: center;
+    display: table;
   }
 
-  /*CLASSES*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
-  h1 {
-    font-family: 'Rozha One', serif;
-    font-size: 400%;
-    letter-spacing: 2;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center !important;
-    
-  }
+#inicio, #estudio, #artesa, #loja, #textos, #contato {
+    height: 100vh;
+}
 
-  h2 {
+h1 {
+     /* tipografia*/
+    font-family: 'Rozha One', 'Garamond', serif;
+    font-weight: 400;
+    font-size: 500%;
+}
+
+h2 {
+    /* tipografia*/
     font-family: 'Garamond', serif;
-    font-size: 150%;
-    font-style: italic;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center !important;
+    font-weight: bold;
+    font-size: 300%;
     
-  }
+}
 
-  .telefone {
+address {
     font-family: 'Garamond', serif;
-    font-size: 90%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    float: right;
-
-  }
-
-
-/* MENU UL LI */
-
-.menu {
-  display: inline;
-  margin-top: 5%;
-  font-size: 250%;
 }
-
-ul {
-  display: inline;
-}
-
-li {
-  display: inline;
-  weight: 500;
-  font-size: 90%;
-  list-style-type: none;
-  border: 0px solid #000;
-  padding: 0 10px;
-}
-
-li a {
-font-size: 250%;
-  background-color: none;
-}
-
-li:hover {
-
-}
-
-
-  } /* fim do max-width 1366 nao remover
